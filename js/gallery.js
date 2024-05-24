@@ -1,5 +1,5 @@
-// "use strict";
-import * as basicLightbox from "../node_modules/basiclightbox/src/scripts/main.js";
+"use strict";
+
 const images = [
     {
         preview: "https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg",
