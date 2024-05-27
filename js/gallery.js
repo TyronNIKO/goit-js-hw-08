@@ -1,4 +1,5 @@
 "use strict";
+// import * as basicLightbox from "basicLightbox";
 import images from "./images.js";
 
 class Gallery {
