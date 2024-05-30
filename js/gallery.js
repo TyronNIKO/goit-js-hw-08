@@ -1,6 +1,8 @@
 "use strict";
 // import * as basicLightbox from "basicLightbox";
-import images from "./images.js";
+import list from "./images.js";
+// const images = require("./images.js");
+// import {addEventListener as adlist} from "./images.js";
 
 class Gallery {
     constructor(array, selector) {
@@ -28,5 +30,5 @@ class Gallery {
         this.renderGallery(this.items);
     }
 }
-const gallery = new Gallery(images, ".gallery");
+const gallery = new Gallery(list, ".gallery");
 gallery.init();
